@@ -1,0 +1,11 @@
+root = true
+
+[*.cs]
+dotnet_diagnostic.SA*.severity = warning
+
+# Recommended code style settings
+dotnet_diagnostic.SA1600.severity = warning # Public members should be documented
+dotnet_diagnostic.SA1200.severity = warning # using directive should be placed within the namespace
+dotnet_diagnostic.SA1401.severity = error   # Fields should be private
+dotnet_diagnostic.SA1101.severity = suggestion # Use this. to qualify field access
+dotnet_diagnostic.SA1633.severity = none # Disable the warning about the file header for this project

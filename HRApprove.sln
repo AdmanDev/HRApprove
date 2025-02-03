@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35707.178
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HRApprove.API", "HRApprove.API\HRApprove.API.csproj", "{F18A27DC-1926-436F-8DA7-9621260853DB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HRApprove.Domain", "HRApprove.Domain\HRApprove.Domain.csproj", "{99AFA35D-A3F3-4033-98B7-1AEBBA349376}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HRApprove.Application", "HRApprove.Application\HRApprove.Application.csproj", "{3E82A712-9D2A-4817-B7DC-6650043B6824}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HRApprove.Infrastructure", "HRApprove.Infrastructure\HRApprove.Infrastructure.csproj", "{65D55276-137D-4BE9-844B-80FAB98EC21F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HRApprove.Tests", "HRApprove.Tests\HRApprove.Tests.csproj", "{D2F5C0FB-27DD-411C-8E80-28D8D1C9FC1B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F18A27DC-1926-436F-8DA7-9621260853DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F18A27DC-1926-436F-8DA7-9621260853DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F18A27DC-1926-436F-8DA7-9621260853DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F18A27DC-1926-436F-8DA7-9621260853DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{99AFA35D-A3F3-4033-98B7-1AEBBA349376}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99AFA35D-A3F3-4033-98B7-1AEBBA349376}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99AFA35D-A3F3-4033-98B7-1AEBBA349376}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99AFA35D-A3F3-4033-98B7-1AEBBA349376}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3E82A712-9D2A-4817-B7DC-6650043B6824}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E82A712-9D2A-4817-B7DC-6650043B6824}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E82A712-9D2A-4817-B7DC-6650043B6824}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E82A712-9D2A-4817-B7DC-6650043B6824}.Release|Any CPU.Build.0 = Release|Any CPU
+		{65D55276-137D-4BE9-844B-80FAB98EC21F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{65D55276-137D-4BE9-844B-80FAB98EC21F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{65D55276-137D-4BE9-844B-80FAB98EC21F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{65D55276-137D-4BE9-844B-80FAB98EC21F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D2F5C0FB-27DD-411C-8E80-28D8D1C9FC1B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2F5C0FB-27DD-411C-8E80-28D8D1C9FC1B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D2F5C0FB-27DD-411C-8E80-28D8D1C9FC1B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D2F5C0FB-27DD-411C-8E80-28D8D1C9FC1B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
