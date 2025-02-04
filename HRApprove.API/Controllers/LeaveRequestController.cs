@@ -57,6 +57,18 @@
         /// </summary>
         /// <param name="request">The leave request details.</param>
         /// <returns>A default API response.</returns>
+        /// <remarks>
+        /// POST /api/LeaveRequest.
+        /// {
+        /// "leaveRequest" : {
+        ///    "employeeId": 1,
+        ///    "type": "Sick",
+        ///    "startDate": "2025-02-28",
+        ///     "endDate": "2025-03-28",
+        ///     "comment": "A simple test"
+        /// }
+        /// }.
+        /// </remarks>
         [HttpPost]
         [ProducesResponseType<DefaultApiResponse>(201)]
         [ProducesResponseType<ErrorApiResponse>(400)]
@@ -71,6 +83,15 @@
         /// </summary>
         /// <param name="request">The leave request review details.</param>
         /// <returns>A default API response.</returns>
+        /// <remarks>
+        /// PUT /api/LeaveRequest/review
+        /// {
+        ///     approverId: 1,
+        ///     leaveRequestId: 1,
+        ///     isApproved: true,
+        ///     reason: "A simple test"
+        /// }.
+        /// </remarks>
         [HttpPut("review")]
         [ProducesResponseType<DefaultApiResponse>(200)]
         [ProducesResponseType<ErrorApiResponse>(400)]
